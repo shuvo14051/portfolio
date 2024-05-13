@@ -1,0 +1,5 @@
+Ahamed, Y., Smith, G., Kumar, G., Nadkarni, G., Adjeroh, D., & Sakhuja, A. (2024). "1434: Machine Learning-Driven Temporal Subphenotypes of Early Sepsis." Critical Care Medicine, 52(1), S688.
+
+Ahamed, M. Y., Syed, M. A. B., Chatterjee, P., Bin Habib, A. Z. S. (2023). "A Deep Learning Approach for Satellite and Debris Detection: YOLO in Action." In Proceedings of the 26th International Conference on Computer and Information Technology (ICCIT) (pp. 1-6). IEEE.
+
+Bin Habib, A. Z. S., Islam, M. E., Syed, M. A. B., Ahamed, M. Y., & Tasnim, T. (2023). "Pediatric Bone Age Prediction Using Deep Learning." In Proceedings of the 26th International Conference on Computer and Information Technology (ICCIT) (pp. 1-6). IEEE.

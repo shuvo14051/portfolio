@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  <!-- Boostraps -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!--  -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <style>
+    .citation {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      /* Add border */
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      /* Add shadow */
+    }
+
+    .citation:hover {
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+      border-radius: 12px;
+    }
+
+    .edu {
+      padding: 12px;
+    }
+
+    .edu:hover {
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+      border-radius: 12px;
+      padding: 12px;
+    }
+
+    .ul-edu {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .fa-li {
+      margin-right: 8px;
+    }
+
+    .text-dark {
+      color: #333;
+    }
+
+    .text-4 {
+      color: #666;
+    }
+
+    /* citation */
+  </style>
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <nav id="desktop-nav">
+    <div class="logo"><a href="#profile"> <span
+          style="color: white; background-color: rgb(225, 52, 52);border-radius: 50%; padding: 0px 10px;">A</span>hamed</a>
+    </div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <!-- home profile -->
+  <!-- <section id="profile" style="padding-top: 170px;">
+
+    <div class="section__pic-container">
+      <img class="first-image" src="./assets/shuvo.png" alt="Ahamed pic" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Younus Ahamed</h1>
+      <p class="section__text__p2">CS PhD Student</p>
+      <h3 style="margin-bottom: 10px;">
+        And I'm a <span style="color: rgb(190, 53, 29);" class="typing"></span>
+      </h3>
+      <div class="btn-container">
+        <button class="butn butn-color-2" onclick="window.open('./assets/Md__Younus_Ahamed.pdf')">
+          Resume
+        </button>
+        <button class="butn butn-color-1" onclick="location.href='#contact'">
+          Contact
+        </button>
+      </div>
+
+
+      <div id="socials-container" style="align-items: center">
+
+        <a href="https://linkedin.com/in/ahamed14051" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin big-icon" style="font-size: 32px; color: rgb(51, 124, 172);"></i>
+        </a>
+        <a href="https://github.com/shuvo14051" target="_blank" rel="noopener">
+          <i class="fab fa-github big-icon" style="font-size: 32px; color: black"></i>
+        </a>
+        <a href="https://scholar.google.com/citations?user=X2xlTEAAAAAJ&hl=en" target="_blank" rel="noopener">
+          <i class="fab fa-google big-icon" style="font-size: 32px; color: rgb(234, 54, 54)"></i>
+        </a>
+        <a href="https://www.researchgate.net/profile/Md-Younus-Ahamed" target="_blank" rel="noopener">
+          <i class="fab fa-researchgate big-icon" style="font-size: 32px; color: rgb(46, 144, 104)"></i>
+        </a>
+
+      </div>
+    </div>
+
+  </section> -->
+
+
+  <section id="profile" style="padding-top: 170px;">
+
+    <div class="row">
+      <div class="col-md-6 col-lg-6 col-12 col-sm-6">
+        <div class="section__pic-container">
+          <img class="first-image" src="./assets/shuvo.png" alt="Ahamed pic" />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-6 col-12 col-sm-6">
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Younus Ahamed</h1>
+        <p class="section__text__p2">CS PhD Student</p>
+        <h3 style="margin-bottom: 10px;">
+          And I'm a <span style="color: rgb(190, 53, 29);" class="typing"></span>
+        </h3>
+        <div class="btn-container">
+          <button class="butn butn-color-2" onclick="window.open('./assets/Md__Younus_Ahamed.pdf')">
+            Resume
+          </button>
+          <button class="butn butn-color-1" onclick="location.href='#contact'">
+            Contact
+          </button>
+        </div>
+
+
+        <div id="socials-container" style="align-items: center">
+
+          <a href="https://linkedin.com/in/ahamed14051" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin big-icon" style="font-size: 32px; color: rgb(51, 124, 172);"></i>
+          </a>
+          <a href="https://github.com/shuvo14051" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon" style="font-size: 32px; color: black"></i>
+          </a>
+          <a href="https://scholar.google.com/citations?user=X2xlTEAAAAAJ&hl=en" target="_blank" rel="noopener">
+            <i class="fab fa-google big-icon" style="font-size: 32px; color: rgb(234, 54, 54)"></i>
+          </a>
+          <a href="https://www.researchgate.net/profile/Md-Younus-Ahamed" target="_blank" rel="noopener">
+            <i class="fab fa-researchgate big-icon" style="font-size: 32px; color: rgb(46, 144, 104)"></i>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- about me -->
+  <section id="about" style="padding-top: 100px;">
+    <h1 class="title" style="padding-bottom: 20px;">About Me</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Hi there!</h1>
+
+          <p style="text-align: justify;">I'm <em>Ahamed</em>, currently pursuing a PhD program in Computer Science at
+            the <strong><a class="under" href="https://lcsee.statler.wvu.edu">LANE Department of Computer Science and
+                Electrical
+                Engineering</a></strong>, <strong><a class="under" href="https://www.wvu.edu">West Virginia
+                University</a></strong>. My current research with <strong><a class="under"
+                href="https://directory.statler.wvu.edu/faculty-staff-directory/donald-adjeroh">Dr. Donald
+                Adjeroh</a></strong> focuses on digital health using machine learning and deep learning
+          </p>
+
+          <h3>Interests</h3>
+          <ul>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Digital Health</li>
+            <li>Health Analytics</li>
+
+          </ul>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <h3>Education</h3>
+          <ul class="ul-edu">
+            <li class="card edu mb-4" style="border: none;">
+              <div>
+                <i class="fa-li fas fa-graduation-cap" style="font-size: 24px;"></i>
+
+                <strong>
+                  <p class="text-dark">PhD in Computer Science, On-going</p>
+                </strong>
+                <p class="text-4">West Virginia University</p>
+              </div>
+            </li>
+
+            <li class="card edu" style="border: none;">
+              <div>
+                <i class="fa-li fas fa-graduation-cap" style="font-size: 24px;"></i>
+
+                <strong>
+                  <p class="text-dark">BSc in Information and Communication Technology, 2019</p>
+                </strong>
+                <p>Mawlana Bhashani Science and Technology University</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" style="padding-top: 100px; text-align: center;">
+    <h1 style="text-align: center; margin-bottom: 30px;">Skills</h1>
+    <div class="container jumbotron" style="text-align: center;">
+      <!-- first row -->
+      <div class="row">
+        <div class="col-md-3 col-lg-3 col-sm-3 col-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="50"
+            alt="python logo" />
+          <h4 class="text-skills">Python</h4>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-sm-3 col-3">
+
+          <img st src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="50"
+            alt="django logo" />
+
+          <h4 class="text-skills">Django</h4>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-sm-3 col-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="50"
+            alt="tensorflow logo" />
+          <h4 class="text-skills">TensorFlow</h4>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-sm-3 col-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="50"
+            alt="pytorch logo" />
+          <h4 class="text-skills">PyTorch</h4>
+        </div>
+      </div>
+
+
+
+      <!-- second row -->
+      <div class="row" style="margin-top: 20px;">
+        <div class="col-md-3 col-lg-3 col-sm-3 col-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="50"
+            alt="numpy logo" />
+          <h4 class="text-skills">NumPy</h4>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-sm-3 col-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="50"
+            alt="pandas logo" />
+          <h4 class="text-skills">Pandas</h4>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-sm-3 col-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="50"
+            alt="git logo" />
+          <h4 class="text-skills">Git</h4>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-sm-3 col-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="50"
+            alt="postgresql logo" />
+          <h4 class="text-skills">PostgreSQL</h4>
+        </div>
+
+
+      </div>
+
+
+      <!-- third row -->
+
+      <div class="row" style="margin-top: 20px;">
+        <div class="col-md-3 col-lg-3 col-sm-3 col-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="50"
+            alt="html5 logo" />
+          <h4 class="text-skills">HTML</h4>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3 col-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="50"
+            alt="css3 logo" />
+          <h4 class="text-skills">CSS</h4>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3 col-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="50"
+            alt="javascript logo" />
+          <h4 class="text-skills">JavaScript</h4>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3 col-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="50"
+            alt="react logo" />
+          <h4 class="text-skills">React</h4>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+  </section>
+
+  <!-- publications -->
+
+  <section id="publications" style="padding-top: 90px; text-align: justify;">
+    <h1 style="text-align: center; margin-bottom: 20px;">Publications</h1>
+
+    <div>
+
+      <!-- first paper -->
+      <p class="citation">
+        <i style="color: rgb(167, 91, 29);" class="fa fa-file"></i> Ahamed, Y., Smith, G., Kumar, G., Nadkarni, G.,
+        Adjeroh, D., & Sakhuja, A. (2024).
+        <a style="text-decoration: none; color: rgb(55, 153, 175); font-weight: bold;" target="_blank"
+          href="https://journals.lww.com/ccmjournal/citation/2024/01001/1434__machine_learning_driven_temporal.1377.aspx">
+          "1434: Machine Learning-Driven Temporal Subphenotypes of Early Sepsis." </a> Critical Care Medicine, 52(1),
+        S688.
+      </p>
+
+      <div class="small-btns mb-2 mt-0">
+        <button class="bb" type="button" data-toggle="modal" data-target="#sepsisModal">cite</button>
+        <a class="bb" target="_blank"
+          href="https://journals.lww.com/ccmjournal/citation/2024/01001/1434__machine_learning_driven_temporal.1377.aspx">doi</a>
+      </div>
+
+      <!-- Modal start -->
+      <div class="modal fade" id="sepsisModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Cite</h4>
+              <button type="button" class="close btn" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <pre style="background-color: rgb(232, 228, 228); padding: 20px;">
+@article{ahamed20241434,
+title={1434: MACHINE LEARNING-DRIVEN TEMPORAL SUBPHENOTYPES OF EARLY SEPSIS},
+author={Ahamed, Younus and Smith, Gordon and Kumar, Gagan and Nadkarni, Girish and Adjeroh, Donald and
+Sakhuja, Ankit},
+journal={Critical Care Medicine},
+volume={52},
+number={1},
+pages={S688},
+year={2024},
+publisher={LWW}
+}
+              </pre>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-info" id="copyButton">Copy</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- modal end -->
+
+      <!-- end first paper -->
+      <p class="citation">
+        <i style="color: rgb(167, 91, 29);" class="fa fa-file"></i> Ahamed, M. Y., Syed, M. A. B., Chatterjee, P., Bin
+        Habib, A. Z. S. (2023). <a style="text-decoration: none; color: rgb(55, 153, 175); font-weight: bold;"
+          target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10441152"> "A Deep Learning Approach for
+          Satellite and Debris Detection: YOLO in Action." </a> In Proceedings of the 26th International Conference on
+        Computer
+        and Information Technology (ICCIT) (pp. 1-6). IEEE.
+      </p>
+
+
+      <div class="small-btns mb-2 mt-0">
+        <button class="bb" type="button" data-toggle="modal" data-target="#yoloModal">cite</button>
+        <a class="bb" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10441152">doi</a>
+      </div>
+
+      <!-- Modal start -->
+      <div class="modal fade" id="yoloModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Cite</h4>
+              <button type="button" class="close btn" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <pre style="background-color: rgb(232, 228, 228); padding: 20px;">
+@inproceedings{ahamed2023deep,
+title={A Deep Learning Approach for Satellite and Debris Detection: YOLO in Action},
+author={Ahamed, Md Younus and Syed, Md Asif Bin and Chatterjee, Paroma and others},
+booktitle={2023 26th International Conference on Computer and Information Technology (ICCIT)},
+pages={1--6},
+year={2023},
+organization={IEEE}
+}
+              </pre>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-info" id="copyButton">Copy</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <p class="citation"><i style="color: rgb(167, 91, 29);" class="fa fa-file"></i> Bin Habib, A. Z. S., Islam, M.
+        E.,
+        Syed, M. A. B., Ahamed, M. Y., & Tasnim, T. (2023).
+        <a style="text-decoration: none; color: rgb(55, 153, 175); font-weight: bold;" target="_blank"
+          href="https://ieeexplore.ieee.org/abstract/document/10441258">"Pediatric Bone Age
+          Prediction Using Deep Learning." </a> In Proceedings of the 26th International Conference on Computer and
+        Information
+        Technology (ICCIT) (pp. 1-6). IEEE.
+      </p>
+
+
+      <div class="small-btns mb-2 mt-0">
+        <button class="bb" type="button" data-toggle="modal" data-target="#boneModal">cite</button>
+        <a class="bb" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10441258">doi</a>
+      </div>
+
+      <!-- Modal start -->
+      <div class="modal fade" id="boneModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Cite</h4>
+              <button type="button" class="close btn" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <pre style="background-color: rgb(232, 228, 228); padding: 20px;">
+@inproceedings{islam2023pediatric,
+title={Pediatric Bone Age Prediction Using Deep Learning},
+author={Islam, Md Ekramul and Syed, Md Asif Bin and Ahamed, Md Younus and Tasnim, Tanpia and others},
+booktitle={2023 26th International Conference on Computer and Information Technology (ICCIT)},
+pages={1--6},
+year={2023},
+organization={IEEE}
+}
+              </pre>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-info" id="copyButton">Copy</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Md Younus Ahamed</p>
+  </footer>
+  <script src="script.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Modal text copy -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('copyButton').addEventListener('click', function () {
+        // Get the text content of the modal body
+        var modalBody = document.querySelector('.modal-body');
+        var modalText = modalBody.textContent;
+
+        // Create a temporary textarea element to copy the text
+        var tempTextArea = document.createElement('textarea');
+        tempTextArea.value = modalText;
+        document.body.appendChild(tempTextArea);
+
+        // Select and copy the text
+        tempTextArea.select();
+        document.execCommand('copy');
+
+        // Remove the temporary textarea
+        document.body.removeChild(tempTextArea);
+
+        // Optionally, you can provide feedback to the user
+        alert('Text copied to clipboard!');
+
+        // Optionally, re-select the text in the modal body
+        var selection = window.getSelection();
+        var range = document.createRange();
+        range.selectNodeContents(modalBody);
+        selection.removeAllRanges();
+        selection.addRange(range);
+      });
+    });
+  </script>
+
+  <!-- dark mode code -->
+
+  <script>
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const darkModeIcon = document.getElementById('dark-mode-icon');
+    const nav = document.getElementById('desktop-nav');
+
+    darkModeToggle.addEventListener('click', () => {
+      if (nav.classList.contains('dark-mode')) {
+        // Switch back to light mode
+        nav.classList.remove('dark-mode');
+        darkModeIcon.classList.remove('fa-sun');
+        darkModeIcon.classList.add('fa-moon');
+      } else {
+        // Switch to dark mode
+        nav.classList.add('dark-mode');
+        darkModeIcon.classList.remove('fa-moon');
+        darkModeIcon.classList.add('fa-sun');
+      }
+    });
+  </script>
+</body>
+
+</html>
