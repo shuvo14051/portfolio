@@ -13,6 +13,10 @@ body {
 
 /* ********************************************** MY CSS*** */
 
+#problem{
+  height: 20vh;
+}
+
 .exclass:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adjust the shadow values as needed */
   transition: box-shadow 0.3s ease; /* Add transition effect for smoother change */
