@@ -13,6 +13,10 @@ body {
 
 /* ********************************************** MY CSS*** */
 
+.exclass:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adjust the shadow values as needed */
+  transition: box-shadow 0.3s ease; /* Add transition effect for smoother change */
+}
 
 .text-skills{
   color: rgb(47, 136, 130) !important;
@@ -89,7 +93,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 a {
